@@ -1,0 +1,59 @@
+/* Add these new styles to your existing CSS */
+
+.api-warning {
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  padding: 10px;
+  background: #ffe6e6;
+  border-radius: 8px;
+  border: 1px solid #ffcccc;
+}
+
+.generating-message {
+  text-align: center;
+  padding: 20px;
+}
+
+.generating-message p {
+  color: #666;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #667eea;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.ai-badge {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.thank-you-message {
+  text-align: center;
+}
+
+/* Update the title to reflect AI functionality */
+.title {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
